@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAY</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="/js/display.js"></script>
+
+    <!--phosphor icons-->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+    <div class="container-grid">
+        <div class="navbar-brand">
+            Pay
+        </div>
+        <div class="navbar-search">
+            <button class="searchbtn">
+                    <i class="ph-magnifying-glass-bold"></i>
+            </button>
+            <input class="searchbar" type="text" placeholder="Search.." />
+        </div>
+
+        <div class="languagebtn" style="margin-top: 24px;"><button style="border: none; background-color: #f2f5fa;">EN<i class="ph-caret-down-bold"></i></button></div>
+        <div class="notificationbtn" style="margin-top: 20px;"><button style="border: none; background-color: #f2f5fa;"><i class="ph-bell-bold"></i></button></div>
+        <div class="profilebtn" style="margin-top: 5px;"><img class="smiley" src="/images/smiley.jpg"></div>
+        <div class="navbarbtn">
+            <button class="hide-show">
+                <i class="ph-list-bold"></i>
+            </button>
+            <div class="nav-menu">
+                <a href="">
+                    Language
+                </a>
+                <a href="">
+                    Notification
+                </a>
+                <a href="">
+                    Profile
+                </a>
+            </div>
+        </div>
+
+        <div class="homebtn"><button class="navbutton"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3UlEQVRIS+2V0RECIQxE33VgC1aglmAlaiVqJdqJLWgFtmAHOuvADQJ3BJz70nxC2JdkNkPHxNFNrE8NYAZcXEFr4GEpzgrw4ksnegVMECvgDGyiinW2K3VhAeTEvW4RUgIcgH2hyiOgvGyMAbbAqTQCd69RqZskhgA14l40C8kB5BTZUc6pCdlWzpLD+ogBreJeMIGEAFV8b6g87lKQuV/EEKDWFjUzGcmV1kr3UwFuwHvrh1z0bOwk0fstQNxtboxfjegP+DBmvHS9r4MsS07Vn9y0GqUPp0k0fPQCZtsrGUSAA7wAAAAASUVORK5CYII="/></button></div>
+        <div class="dashboard">
+            <div class="grid-dashboard">Dashboard</div>
+            <div class="upcoming-payment" style="font-size: 24px; font-weight: 800; margin-left: 24px;">Upcoming Payments</div>
+            <div class="graph"><img src="/images/graph.png" alt=""></div>
+            <div class="debit-card"><img src="/images/debit card.png"></div>
+            <div class="upcoming-btn">
+                <button class="up-payments-btn">
+                    <div class="briefcase">
+                        <i class="fas fa-briefcase fa-2x"></i>
+                    </div>
+                    <div style="font-weight: 800;font-size: 16px; padding-top: 10px; padding-bottom: 3px;"> Salary</div>
+                    <div style="padding-bottom: 5px; color: #a7a7a8;"> Bolong interactive</div>
+                    <div style="font-weight: 800; "> +2000.00$</div>
+                    </button>
+                <button class="up-payments-btn">
+                    <div class="paypal">
+                        <i class="fab fa-paypal fa-2x"></i>
+                    </div>
+                    <div style="font-weight: 800;font-size: 16px; padding-top: 10px; padding-bottom: 3px;">Paypal</div>
+                    <div style="padding-bottom: 5px; color: #a7a7a8;">Freelance payment</div>
+                    <div style="font-weight: 800; "> +45.00$</div>
+                    </button>
+            </div>
+            <div class="recent-transactions" style="padding-top: 48px; margin-left: 24px;">
+                <div class="RT">Recent transactions</div>
+                <div class="sort-by">
+                    <button onclick="myFunction()" class="dropbtn">Sort by<i class="ph-caret-down"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a class="dot-menu" href="">A-Z</a>
+                        <div>
+                            <hr>
+                        </div>
+                        <a class="dot-menu" href="">DATE</a>
+                        <div>
+                            <hr>
+                        </div>
+                        <a class="dot-menu" href="">AMOUNT</a>
+                    </div>
+                    <div class="sort-arrow"><i class="ph-arrow-down"></i></div>
+                    <div class="a-z"> A<br>Z </div>
+                </div>
+
+                <div style="font-size: 36px;">
+                    <i class="ph-gift"></i>
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">
+                    shopping
+                </div>
+                <div style="padding-top: 10px; color: #ababab;">
+                    20 june 2020 15:00
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">
+                    45.00$
+                </div>
+                <div>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn"><i class="ph-dots-three-vertical-bold"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a class="dot-menu" href="">Apple pay</a>
+                            <a class="dot-menu" href="">Transfer to account</a>
+                            <a class="dot-menu" href="">Report for transaction</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-rule">
+                    <hr color="#e9e9e9">
+                </div>
+
+                <div style="font-size: 36px;">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">
+                    grocery
+                </div>
+                <div style="padding-top: 10px; color: #ababab;">
+                    15 march 2020 10:00
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">
+                    75.00$
+                </div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="ph-dots-three-vertical-bold"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a class="dot-menu" href="">Apple pay</a>
+                        <a class="dot-menu" href="">Transfer to account</a>
+                        <a class="dot-menu" href="">Report for transaction</a>
+                    </div>
+                </div>
+                <div class="horizontal-rule">
+                    <hr color="#e9e9e9">
+                </div>
+
+                <div style="font-size: 36px;">
+                    <i class="ph-barbell"></i>
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">
+                    gym
+                </div>
+                <div style="padding-top: 10px; color: #ababab;">
+                    15 December 2020 7:00
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">
+                    150.00$
+                </div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="ph-dots-three-vertical-bold"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a class="dot-menu" href="">Apple pay</a>
+                        <a class="dot-menu" href="">Transfer to account</a>
+                        <a class="dot-menu" href="">Report for transaction</a>
+                    </div>
+                </div>
+                <div class="horizontal-rule">
+                    <hr color="#e9e9e9">
+                </div>
+
+                <div style="font-size: 36px;">
+                    <i class="fas fa-washer"></i>
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">
+                    laundry
+                </div>
+                <div style="padding-top: 10px; color: #ababab;">21 January 2021 17:25</div>
+                <div style="padding-top: 10px; font-weight: 600;">25.00$</div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="ph-dots-three-vertical-bold"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a class="dot-menu" href="">Apple pay</a>
+                        <a class="dot-menu" href="">Transfer to account</a>
+                        <a class="dot-menu" href="">Report for transaction</a>
+                    </div>
+                </div>
+                <div class="horizontal-rule">
+                    <hr color="#e9e9e9">
+                </div>
+
+                <div style="font-size: 36px;">
+                    <i class="ph-car"></i>
+                </div>
+                <div style="padding-top: 10px; font-weight: 600;">car repair</div>
+                <div style="padding-top: 10px; color: #ababab;">17 May 2021 15:01</div>
+                <div style="padding-top: 10px; font-weight: 600;">450.00$</div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="ph-dots-three-vertical-bold"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a class="dot-menu" href="">Apple pay</a>
+                        <a class="dot-menu" href="">Transfer to account</a>
+                        <a class="dot-menu" href="">Report for transaction</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="messagebtn"><button class="navbutton"><i class="ph-envelope-bold"></i></button></div>
+        <div class="chatbtn"><button class="navbutton"><i class="ph-chat-circle-text-bold"></i></button></div>
+        <div class="userbtn"><button class="navbutton"><i class="ph-user-bold"></i></button></div>
+        <div class="uploadbtn"><button class="navbutton"><i class="ph-cloud-arrow-up-bold"></i></button></div>
+        <div class="settingsbtn"><button class="navbutton"><i class="ph-gear-bold"></i></button></div>
+    </div>
+</body>
+
+</html>
